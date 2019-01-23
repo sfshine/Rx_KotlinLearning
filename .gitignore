@@ -1,6 +1,7 @@
 #Add by lichao
 .idea
 .idea/*
+.idea/workspace.xml
 target/
 conf/config_*.txt
 bin/
