@@ -39,3 +39,13 @@ buildNumber.properties
 *.ear
 hs_err_pid*
 *.DS_Store
+
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/.gradletasknamecache
