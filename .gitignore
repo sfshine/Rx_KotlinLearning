@@ -9,10 +9,10 @@ src/test/resources/badcase
 src/test/resources/sms*
 classes/
 out/
-
+build/
 #Add by wangzhili
 #src/test/resources/
-src/test/resources/hotel.txt 
+src/test/resources/hotel.txt
 .classpath
 .project
 .settings
