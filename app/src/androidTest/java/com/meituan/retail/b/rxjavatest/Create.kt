@@ -18,6 +18,9 @@ fun main(args: Array<String>) {
             println("subscribeOn Thread ${Thread.currentThread()}")
             it.onCompleted()
         }
+        .doOnSubscribe {
+            println("doOnSubscribe")
+        }
         .doOnUnsubscribe {
             println("doOnUnsubscribe")
         }

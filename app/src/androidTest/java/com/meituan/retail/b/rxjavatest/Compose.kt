@@ -18,7 +18,8 @@ fun main(args: Array<String>) {
     Observable.create<Int> {
         it.onNext(1)
         it.onCompleted()
-    }.compose(LiftAllTransformer())
+    }
+        .compose(LiftAllTransformer())
         .subscribe {
             println(it)
         }
